@@ -3,10 +3,6 @@ DESAFIO 03 - Python para Zumbis
 -------------
 Verifique se um inteiro positivo n é primo. 
 '''
-while True:
-    n = int(input('Número positivo: '))
-    if n > 0:
-        break
 k = 0
 for i in range(2, n):  # 2 até n-1
     if n % i == 0:

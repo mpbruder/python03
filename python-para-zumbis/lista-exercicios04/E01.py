@@ -10,7 +10,7 @@ lista = []
 lista = random.sample(range(1, 101), 10)  # 100 só entra com range de 101
 mx = mn = lista[0]
 
-for x in lista:
+for x in lista[1:]:
     if x > mx:
         mx = x
     if x < mn:
